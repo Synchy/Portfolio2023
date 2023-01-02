@@ -1,8 +1,24 @@
-
+.home {
+    height: 100vh;
+    background-color: #C9C5CB;
+}
 
 .home-wrapper {
+    display: flex;
     position: relative;
     overflow: hidden;
     width: 85%;
+    height: auto;
     margin: auto;
+    align-items: center;
+
+    &__left {
+        display: inline-block;
+        flex: 1;
+        color: white;
+    }
+
+    &__right {
+        flex: 1;
+    }
 }

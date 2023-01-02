@@ -26,6 +26,12 @@ const NavBar = () => {
                     </NavLink>
                 </li>
             </ul>
+            <div className='navMain__darkMode'>
+                <button></button>
+            </div>
+            <div className='navMain__language'>
+                <svg>Langue</svg>
+            </div>
         </nav>
     )
 }

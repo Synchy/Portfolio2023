@@ -1,12 +1,13 @@
 .navMain {
+    display: flex;
     position: relative;
     background-color: white;
+    justify-content: flex-end;
 
     &__list {
         display: flex;
-        justify-content: flex-end;
         gap: 80px;
-        margin: 0 50px 0 0;
+        margin: 0 20px 0 0;
         padding: 30px;
         flex-flow: row;
         list-style: none;
@@ -14,9 +15,13 @@
         &__item {
             a {
                 text-decoration: none;
-                color: pink;
+                color: #B48EAE;
                 font-size: 2.1em;
             }
         }
+    }
+
+    &__language {
+        margin: 0 20px;
     }
 }
