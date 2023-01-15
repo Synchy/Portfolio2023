@@ -13,7 +13,7 @@ function Home() {
                         <span>Cesarini</span>
                     </h1>
                     <p> 
-                        Developpeuse web en recherche 
+                        Développeuse web en recherche 
                         <span>
                             d'alternance ou CDI
                         </span>

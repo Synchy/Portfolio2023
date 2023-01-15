@@ -2,12 +2,11 @@
     height: 100vh;
     margin:0;
     padding:0;
-    background: linear-gradient(to right, $lavender, $white);
+    background: linear-gradient(to right, $medium, $white);
 }
 
 .logo {
     max-width: 140px;
-
 }
 
 .home-wrapper {
@@ -15,15 +14,18 @@
     position: relative;
     overflow: hidden;
     width: 85%;
-    height: auto;
-    margin: auto;
+    margin: 60px auto;
     align-items: center;
+
 
     &__left {
         display: flex;
-        justify-content: space-around;
+        gap: 20px;
         flex-direction: column;
-        flex: .5;
+        flex: 0 1 45%;
+        max-height: 550px;
+        border-top: 2px solid $white;
+        border-bottom: 2px solid $white;
 
         h1 {
             display: flex;
