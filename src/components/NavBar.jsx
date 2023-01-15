@@ -1,37 +1,35 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import pic1 from '../assets/png/1.png'
+
 
 const NavBar = () => {
     return (
         <nav className="navMain">
+            <figure>
+            <img className="logo" src={pic1} alt="flora's logo"/>
+            </figure>
             <ul className="navMain__list">
                 <li className="navMain__list__item" >
-                    <NavLink to="/">
+                    <button className="navMain__list__item__link" id="#home">
                         Home
-                    </NavLink>
+                    </button>
                 </li>
                 <li className="navMain__list__item" >
-                    <NavLink to="/about">
+                    <button className="navMain__list__item__link" id="#About">
                         About
-                    </NavLink>
+                    </button>
                 </li>
                 <li className="navMain__list__item">
-                    <NavLink to="/contact">
+                    <button className="navMain__list__item__link"  id="#contact">
                         Contact
-                    </NavLink>
+                    </button>
                 </li>
                 <li className="navMain__list__item">
-                    <NavLink to="/projects">
+                    <button className="navMain__list__item__link" id="#projects">
                         Projects
-                    </NavLink>
+                    </button>
                 </li>
             </ul>
-            <div className='navMain__darkMode'>
-                <button></button>
-            </div>
-            <div className='navMain__language'>
-                <svg>Langue</svg>
-            </div>
         </nav>
     )
 }

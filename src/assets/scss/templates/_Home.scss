@@ -1,6 +1,13 @@
 .home {
     height: 100vh;
-    background-color: #C9C5CB;
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right, $lavender, $white);
+}
+
+.logo {
+    max-width: 140px;
+
 }
 
 .home-wrapper {
@@ -13,9 +20,33 @@
     align-items: center;
 
     &__left {
-        display: inline-block;
-        flex: 1;
-        color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex: .5;
+
+        h1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            font-family: "Noto Serif", serif;
+            color: $white;
+            font-size: 7.1rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        p {
+            display: block;
+            font-family: "Noto Serif", serif;
+            color: $violet;
+            font-size: 5.1rem;
+
+            span {
+                display: block;
+                color: $white;
+            }
+        }
     }
 
     &__right {
