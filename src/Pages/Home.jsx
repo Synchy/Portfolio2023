@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-
+import Spline from '@splinetool/react-spline'
 
 function Home() {
     return(
@@ -20,7 +20,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='home-wrapper__right'>
-                    <svg/>
+                    <Spline className='home-wrapper__right__working_girl' scene="https://prod.spline.design/b88lLtHfCtbM2TZ5/scene.splinecode"/>
                 </div>
             </div>
         </div>
