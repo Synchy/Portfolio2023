@@ -13,10 +13,9 @@
     display: flex;
     position: relative;
     width: 90%;
-    margin-top: 60px;
     padding: 0 5vw;
-
-
+    margin-top: 20px;
+    gap: 50px;
 
     &__left {
         display: flex;
@@ -33,7 +32,7 @@
             justify-content: flex-start;
             font-family: "Noto Serif", serif;
             color: $white;
-            font-size: 7.1rem;
+            font-size: 6.1rem;
             font-weight: 400;
             text-transform: uppercase;
         }
@@ -42,7 +41,7 @@
             display: block;
             font-family: "Noto Serif", serif;
             color: $violet;
-            font-size: 5.1rem;
+            font-size: 4.1rem;
 
             span {
                 display: block;
@@ -53,8 +52,7 @@
 
     &__right {
         display: flex;
-        height: 100%;
-
+        width: 600px;
         &__working_girl {
             display: flex;
             width: 100%;
