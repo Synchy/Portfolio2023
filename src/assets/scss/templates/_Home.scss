@@ -9,20 +9,21 @@
     max-width: 140px;
 }
 
+
+
 .home-wrapper {
     display: flex;
     position: relative;
     width: 90%;
-    padding: 0 5vw;
+    padding: 0 0 0 5vw;
     margin-top: 20px;
     gap: 50px;
 
     &__left {
-        display: flex;
-        gap: 20px;
-        flex-direction: column;
         flex: 0 1 45%;
-        max-height: 550px;
+        width: 30%;
+        height: 420px;
+        max-height: 600px;
         border-top: 2px solid $white;
         border-bottom: 2px solid $white;
 
@@ -31,6 +32,7 @@
             flex-direction: column;
             justify-content: flex-start;
             font-family: "Noto Serif", serif;
+            margin-top: 20px;
             color: $white;
             font-size: 6.1rem;
             font-weight: 400;
@@ -42,11 +44,20 @@
             font-family: "Noto Serif", serif;
             color: $violet;
             font-size: 4.1rem;
+            margin-top: 3rem;
 
             span {
                 display: block;
                 color: $white;
             }
+        }
+
+        .arrowDown {
+            display: block;
+            position: absolute;
+            max-width: 100px;
+            bottom: -90px;
+            left: 300px;
         }
     }
 

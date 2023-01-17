@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import Spline from '@splinetool/react-spline'
+import WorkingGirl from '../components/WorkingGirl'
+import pic2 from '../assets/png/2.png'
 
 function Home() {
     return(
@@ -18,9 +19,10 @@ function Home() {
                             d'alternance ou CDI
                         </span>
                     </p>
+                    <img className='arrowDown' src={pic2} alt='bottom arrow'/>
                 </div>
                 <div className='home-wrapper__right'>
-                    <Spline className='home-wrapper__right__working_girl' scene="https://prod.spline.design/b88lLtHfCtbM2TZ5/scene.splinecode"/>
+                    <WorkingGirl/>
                 </div>
             </div>
         </div>

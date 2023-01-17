@@ -11,22 +11,22 @@ const NavBar = () => {
             <ul className="navMain__list">
                 <li className="navMain__list__item" >
                     <button className="navMain__list__item__link" id="#home">
-                        Home
+                        <p>Home</p>
                     </button>
                 </li>
                 <li className="navMain__list__item" >
                     <button className="navMain__list__item__link" id="#About">
-                        About
+                        <p>About</p>
                     </button>
                 </li>
                 <li className="navMain__list__item">
                     <button className="navMain__list__item__link"  id="#contact">
-                        Contact
+                        <p>Contact</p>
                     </button>
                 </li>
                 <li className="navMain__list__item">
                     <button className="navMain__list__item__link" id="#projects">
-                        Projects
+                        <p>Projects</p>
                     </button>
                 </li>
             </ul>
